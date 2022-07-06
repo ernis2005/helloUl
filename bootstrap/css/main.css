@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+.menu{
+    display:flex ;
+}
+.menu_menu{
+    display: block;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+.cards{
+    display:grid ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: center;
+}
